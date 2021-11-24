@@ -35,7 +35,6 @@ const HomeScreen = ({navigation}) => {
   
     const fetchArticles = () => {
       setLoading(true);
-      console.log(country,page,pageSize)
       APIKit
         .get('/top-headlines?country='+country+'&page='+page+'&pageSize='+pageSize+'&apiKey=c26cde4210c646ac8e4337fab230d202')
         .then(({data}) => {
