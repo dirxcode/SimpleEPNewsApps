@@ -42,7 +42,7 @@ const HomeScreen = ({navigation}) => {
           isOffline && setOfflineStatus(false);
         })
         .catch((error) => {
-          console.log(error.response)
+          
           //we need to check if connection device has problem?
           if(isOffline){
             ToastAndroid.showWithGravity(
