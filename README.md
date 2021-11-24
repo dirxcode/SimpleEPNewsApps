@@ -4,7 +4,7 @@
 
 - SimpleEPNewsApps
 
-- Simple News App using API from newsapi.org
+- Simple News App using API from newsapi.org using ReactNative
 
 - Email : cut.dira004@gmail.com
 
