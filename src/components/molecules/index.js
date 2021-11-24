@@ -1,0 +1,1 @@
+export {DetailArticleComponent, SmallArticleComponent, default as HeadArticleComponent} from './articel-component';
